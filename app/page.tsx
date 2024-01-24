@@ -1,10 +1,11 @@
-import TopNav from "@/components/TopNav/TopNav";
 import { Fragment } from "react";
+
+import TopNav from "@/components/TopNav/TopNav";
 
 const HomePage = () => {
     return (
         <Fragment>
-            <TopNav/>
+            <TopNav />
             <h1>Home Page</h1>
         </Fragment>
     )
